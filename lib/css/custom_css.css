@@ -330,16 +330,16 @@ body{overflow-x:hidden}
         margin-bottom: 25px;
 }
 .sec_footer p{
-    color: #d9e0e8;
+    color: white;
     font-size: 14px;
     margin-bottom: 0.8em;
 }
 .sec_footer a{
-    color: #d9e0e8;
+    color: white;
     font-size: 14px;
 }
 .sec_footer a:hover{
-    color: #0abc5f !important;
+    color:#ffeb3b !important;
 }
 .sec_footer .icon-box-img {
     width: 14px !important;
@@ -475,3 +475,7 @@ body{overflow-x:hidden}
 /*---end style mobile mode---*/     
 
 
+/* New Style */
+.back-color{
+    background-color: aliceblue;
+}
