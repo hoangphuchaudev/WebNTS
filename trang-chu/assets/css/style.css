@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Archivo", sans-serif;
   color: #444444;
 }
 
@@ -78,6 +78,8 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
+  background-color: aliceblue !important;
+  font-weight: 700;
   z-index: 997;
   transition: all 0.5s;
   padding: 22px 0;
@@ -139,7 +141,7 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 600;
   color: #555555;
   white-space: nowrap;
   transition: 0.3s;
@@ -615,6 +617,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
+  background-color: #bbbbbb;
   padding-top: 0;
 }
 
@@ -1701,5 +1704,5 @@ section {
 }
 
 #footer .footer-links a:hover {
-  color: #111;
+  color: #ffeb3b !important;
 }
