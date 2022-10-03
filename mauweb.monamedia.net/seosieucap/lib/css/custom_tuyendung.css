@@ -305,7 +305,7 @@ a {
     padding: 50px;
 }
 
-.text-center i {
+/* .text-center i {
     font-size: 40px;
     margin-top: 70px;
     margin-bottom: 30px;
@@ -313,9 +313,9 @@ a {
     padding: 50px;
     background: #1BBD36;
     border-radius: 50%;
-}
+} */
 
-.text-center h2 {
+/* .text-center h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -330,7 +330,7 @@ a {
     -moz-transition: color 300ms, background-color 300ms;
     -o-transition: color 300ms, background-color 300ms;
     transition: color 300ms, background-color 300ms;
-}
+} */
 
 #partner {
     background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
