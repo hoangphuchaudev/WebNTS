@@ -603,7 +603,7 @@ section {
   animation-delay: 0.8s;
   margin-top: 6px;
   border: 2px solid #218eaf;
-  width: 150px; 
+  width: 150px;
   margin-left: 43%;
 }
 
@@ -790,7 +790,7 @@ section {
   padding: 160px 20px 20px 20px;
   position: relative;
   width: 100%;
-  background-size: cover ;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -893,51 +893,37 @@ section {
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
-<<<<<<< HEAD
   padding: 15px 15px 15px 30px;
-  /* margin: 30px 15px; */
-=======
+   margin: 30px 15px; 
   padding: 30px 30px 30px 30px;
   margin: 30px 15px;
->>>>>>> fe62dc07d212cf86aeb03241116d9861a9143a8f
   min-height: 200px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
   background: #fff;
-<<<<<<< HEAD
   width: 300px;
   height: 350px;
-  border-radius:50px
-=======
+  border-radius: 50px;
   text-align: center;
-  height: 300px;
->>>>>>> fe62dc07d212cf86aeb03241116d9861a9143a8f
 }
 
 .testimonials .testimonial-item .testimonial-img {
   width: 150px;
   border-radius: 100px;
   border: 6px solid #fff;
-<<<<<<< HEAD
   position: static;
-  margin-left: 25%;
-=======
-  /* position: absolute;
-  left: -45px; */
->>>>>>> fe62dc07d212cf86aeb03241116d9861a9143a8f
+  margin-left: 0%;
 }
 
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
-  margin-left: 30%;
   color: #111;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
   color: #999;
-  margin-left: 35%;
 
 }
 
@@ -1644,6 +1630,7 @@ section {
   .breadcrumbs ol {
     margin-top: 10px;
   }
+
   .section-title h2 {
     font-size: 20px;
     font-weight: bold;
@@ -1651,6 +1638,7 @@ section {
     position: relative;
     color: #222222;
   }
+
   .about .content .btn-learn-more {
     font-family: "Raleway", sans-serif;
     font-weight: 600;
@@ -1666,7 +1654,7 @@ section {
     animation-delay: 0.8s;
     margin-top: 6px;
     border: 2px solid #218eaf;
-    width: 150px; 
+    width: 150px;
     margin-left: 35%;
   }
 }
@@ -1726,6 +1714,6 @@ section {
   color: #ffeb3b !important;
 }
 
-.slide-custom{
-  width: 408px  !important;
+.slide-custom {
+  width: 408px !important;
 }
