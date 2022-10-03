@@ -1620,6 +1620,14 @@ section {
   .breadcrumbs ol {
     margin-top: 10px;
   }
+  .section-title h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    color: #222222;
+  }
+  
 }
 
 .breadcrumbs ol li+li {
