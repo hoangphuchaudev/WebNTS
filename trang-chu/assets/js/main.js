@@ -163,10 +163,10 @@
    */
   new Swiper('.testimonials-slider', {
     speed: 600,
-    loop: true,
+    loop: false,
     autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
+      delay: 2000,
+      disableOnInteraction: true
     },
     slidesPerView: 'auto',
     pagination: {

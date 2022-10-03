@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Archivo", sans-serif;
   color: #444444;
 }
 
@@ -78,6 +78,8 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
+  background-color: aliceblue !important;
+  font-weight: 700;
   z-index: 997;
   transition: all 0.5s;
   padding: 22px 0;
@@ -139,7 +141,7 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 600;
   color: #555555;
   white-space: nowrap;
   transition: 0.3s;
@@ -615,6 +617,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
+  background-color: #bbbbbb;
   padding-top: 0;
 }
 
@@ -890,23 +893,38 @@ section {
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
+<<<<<<< HEAD
   padding: 15px 15px 15px 30px;
   /* margin: 30px 15px; */
+=======
+  padding: 30px 30px 30px 30px;
+  margin: 30px 15px;
+>>>>>>> fe62dc07d212cf86aeb03241116d9861a9143a8f
   min-height: 200px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
   background: #fff;
+<<<<<<< HEAD
   width: 300px;
   height: 350px;
   border-radius:50px
+=======
+  text-align: center;
+  height: 300px;
+>>>>>>> fe62dc07d212cf86aeb03241116d9861a9143a8f
 }
 
 .testimonials .testimonial-item .testimonial-img {
   width: 150px;
   border-radius: 100px;
   border: 6px solid #fff;
+<<<<<<< HEAD
   position: static;
   margin-left: 25%;
+=======
+  /* position: absolute;
+  left: -45px; */
+>>>>>>> fe62dc07d212cf86aeb03241116d9861a9143a8f
 }
 
 .testimonials .testimonial-item h3 {
@@ -1705,5 +1723,9 @@ section {
 }
 
 #footer .footer-links a:hover {
-  color: #111;
+  color: #ffeb3b !important;
+}
+
+.slide-custom{
+  width: 408px  !important;
 }
