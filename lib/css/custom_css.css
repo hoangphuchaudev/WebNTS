@@ -817,8 +817,7 @@ a:hover {
 .back-color {
     background-color: aliceblue;
 }
-<<<<<<< HEAD
-=======
+
 
 .integration-grid {
     display: grid;
@@ -885,4 +884,7 @@ a:hover {
     left: 0;
     content: url(../img/svgexport-1.svg);
 }
->>>>>>> cd7ac86967d705d8f3ebc1b8f5bd74d7a7d4aa83
+
+.back-color-content{
+    background-color: #f8f8f8;
+}
