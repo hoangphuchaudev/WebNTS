@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Archivo", sans-serif;
+  font-family:'Times New Roman', Times, serif;
   color: #444444;
 }
 
@@ -589,7 +589,7 @@ section {
 }
 
 .about .content .btn-learn-more {
-  font-family: "Raleway", sans-serif;
+  font-family:'Times New Roman', Times, serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -660,8 +660,8 @@ section {
 .counts .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 18px;
   color: #484848;
 }
 
@@ -670,8 +670,8 @@ section {
   display: block;
   margin-top: 20px;
   color: #484848;
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
   transition: ease-in-out 0.3s;
 }
 
