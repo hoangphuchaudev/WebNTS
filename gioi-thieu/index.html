@@ -1155,8 +1155,47 @@
       .back-color {
          background-color: aliceblue;
       }
+        /* định dạng thẻ div chưa các button tab */
+        div.tab {
+            margin-left: 20%;
+            overflow: hidden; 
+        }
+
+        /* định dạng các button tab */
+        div.tab button {        
+            background-color: #f6f6f6; 
+            float: left;
+            border:rgba(0, 0, 0, .1);
+            outline: none;
+            color: #626262;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 5px;
+            padding: 6px 10px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+
+        /* đổi màu khi một button tab được hover */
+        div.tab button:hover {
+            background-color: rgb(226, 222, 222);
+        }
+
+        /* đổi màu nền cho tab đang được hiển thị nội dung */
+        div.tab button.active {
+         color:#ffffff;
+         background: linear-gradient( 180deg,#63dcfe 0%,#3dbee5 33.5%,#24a3e6 64%,#1592e6 100% );
+        }
+        /* định dạng nội dung hiển thị */
+        .tabcontent {
+            text-align: center;
+            display: none;
+            padding: 6px 12px;
+            border-top: none;
+        } 
    </style>
-   
+   <link  href="./" type='text/css' media='all' />
+
 </head>
 
 <body
@@ -1311,91 +1350,74 @@
                <!-- .page-title -->
             </div>
             <!-- .page-header-wrapper -->
-           
-            </div>
-            <section class="section" id="section_984106241">
-
-               <div class="bg section-bg fill bg-fill  bg-loaded">
+            <div class="container">
+               <div class="tab">
+                  <button class="tablinks active">GIỚI THIỆU</button>
+                  <button class="tablinks">TẦM NHÌN</button>
+                  <button class="tablinks">SỨ MỆNH</button>
+                  <button class="tablinks">GIÁ TRỊ CỐT LÕI</button>
+                  <button class="tablinks">LIÊN HỆ</button>
                </div>
-               <!-- .section-bg -->
-               <div class="section-content relative">
-                  <div class="gap-element" style="display:block; height:auto; padding-top:50px" class="clearfix"></div>
-                  <div class="row" id="row-1451686702">
-                     <div class="col small-12 large-12">
-                        <div class="col-inner">
-                           <p><strong>*Tên công ty: Công Ty SEO Siêu Cấp</strong><br /><strong>*Tên tiếng anh: SUPER
-                                 SEO</strong><br /><strong>*Viết tắt: SSC., CORP</strong></p>
-                           <h2>Giới thiệu chung:</h2>
-                           <p>Công ty <strong>SEO Siêu Cấp (SSC)</strong> được thành lập vào ngày 3 tháng 3 năm 2010 với
-                              tiêu chí “Luôn đồng hành cùng thành công của bạn”.Cổ đông sáng lập <strong>SEO Siêu
-                                 Cấp</strong> bao gồm các cá nhân và doanh nhân đang hoạt động thành đạt tại Việt
-                              Nam.Với đội ngũ nhân viên trẻ,năng nổ,sáng tạo hứa hẹn một tương lai xa tốt đẹp dành cho
-                              <strong>SEO Siêu Cấp</strong>.<br />Với lợi thế chiều sâu nghiêm cứu,phát triển từ năm
-                              2007, <strong>SEO Siêu Cấp </strong>đã lấy được uy tin trên thị trường website từ các
-                              <strong>dịch vụ Seo</strong> , <strong>tư ấn SEO</strong>, <strong>SEO top 10
-                                 Google</strong>, <strong>tăng thứ hạng web trên kết quả tìm kiếm Google</strong>,
-                              <strong>tăng Rank Alexa,</strong> <strong>tăng thứ hạng web</strong>, <strong>cung cấp
-                                 Visit – Traffic</strong> với giá cả hợp lý, và <strong>Thiết kế Website</strong>.Khả
-                              năng thành công và hiệu quả trong công việc của <strong>SEO Siêu Cấp </strong>nhận được sự
-                              tin tưởng của nhiều đối tác khắp mọi miền tổ quốc.</p>
-                           <h2>Tầm nhìn:</h2>
-                           <p>Với chức năng chủ yếu là cung cấp dịch vụ website đảm bảo chất lượng và đáng tin cậy : bắt
-                              đầu từ dịch vụ thuê hosting, thiết kế website, quảng bá website và việc chăm sóc website
-                              của doanh nghiệp, phát triển hình ảnh, thương hiệu trên Internet, mở rộng danh sách khách
-                              hàng, tăng thứ hạng web trên thế giới, giúp cho người dùng internet biết đến để truy cập
-                              vào và giao dịch nhiều hơn.Công ty Công ty <strong>SEO Siêu Cấp</strong> sẽ vươn xa hơn
-                              không chỉ cho những doanh nghiệp trong nước mà còn cả những doanh nghiệp nước ngoài.</p>
-                           <figure id="attachment_360" style="width: 712px" class="wp-caption aligncenter">
-                              <img class="size-full wp-image-360"
-                                 src="../wp-content/uploads/2018/12/tam-nhin-va-su-menh.png" alt="tầm nhìn và sứ mệnh"
-                                 width="712" height="294"
-                                 srcset="http://mauweb.monamedia.net/seosieucap/wp-content/uploads/2018/12/tam-nhin-va-su-menh.png 712w, http://mauweb.monamedia.net/seosieucap/wp-content/uploads/2018/12/tam-nhin-va-su-menh-300x124.png 300w, http://mauweb.monamedia.net/seosieucap/wp-content/uploads/2018/12/tam-nhin-va-su-menh-600x248.png 600w"
-                                 sizes="(max-width: 712px) 100vw, 712px" />
-                              <figcaption class="wp-caption-text">Tầm nhìn và sứ mệnh công ty <strong>SEO Siêu
-                                    Cấp</strong>.</figcaption>
-                           </figure>
-                           <h2>Sứ mệnh:</h2>
-                           <p>Mang đến thành công cho doanh nghiệp. Giúp cho thương hiệu và dịch vụ của doanh nghiệp
-                              được biết đến rộng rãi hơn. Sự thành công của Doanh nghiệp là niềm hạnh phúc của chúng
-                              tôi.<br />Với phương châm “Uy tín tạo dựng niềm tin cho khách hàng”. Đến với dịch vụ của
-                              chúng tôi, khách hàng sẽ được hưởng những dịch vụ tốt nhất với đội ngũ nhân viên nhiệt
-                              tình, sáng tạo, thân thiện, có trách nhiệm với công việc… Chúng tôi luôn cố gắng mang lại
-                              những giá trị dịch vụ tốt nhất đến với khách hàng. Khách hàng luôn có sự tin tưởng và hài
-                              lòng khi làm việc với chúng tôi.</p>
-                           <h2>Văn hóa:</h2>
-                           <p><strong>SEO Siêu Cấp </strong>có một nền “văn hóa TRẺ”: công ty trẻ – con người
-                              trẻ<br />&#8211; Ở <strong>SEO Siêu Cấp</strong>, không phải các bạn đang làm việc mà các
-                              bạn đang sáng tạo.Ở <strong>SEO Siêu Cấp</strong>, đừng bỏ qua, dù chỉ là một ý tưởng nhỏ!
-                              <strong>SEO Siêu Cấp </strong>mà !</p>
-                           <figure id="attachment_361" style="width: 745px" class="wp-caption aligncenter">
-                              <img class="size-full wp-image-361"
-                                 src="../wp-content/uploads/2018/12/van-hoa-cong-ty.png" alt="Văn hóa công ty DVS"
-                                 width="745" height="305"
-                                 srcset="http://mauweb.monamedia.net/seosieucap/wp-content/uploads/2018/12/van-hoa-cong-ty.png 745w, http://mauweb.monamedia.net/seosieucap/wp-content/uploads/2018/12/van-hoa-cong-ty-300x123.png 300w, http://mauweb.monamedia.net/seosieucap/wp-content/uploads/2018/12/van-hoa-cong-ty-600x246.png 600w"
-                                 sizes="(max-width: 745px) 100vw, 745px" />
-                              <figcaption class="wp-caption-text">Văn hóa công ty <strong>SEO Siêu Cấp </strong>&#8211;
-                                 Năng động và sáng tạo.</figcaption>
-                           </figure>
-                           <p>&#8211; <strong>SEO Siêu Cấp </strong>tôn trọng từng ý tưởng và đón nhận mọi cá tính. Một
-                              phong cách <strong>SEO Siêu Cấp </strong>năng nổ, hài hước đã trở thành chất keo vô hình
-                              gắn kết những người trẻ và tài năng.<br />&#8211; Có thể bạn chưa phải thành viên
-                              <strong>SEO Siêu Cấp </strong>,chưa một lần gặp gỡ,chưa biết đến hay đọc qua sách báo về
-                              <strong>SEO Siêu Cấp</strong>… Nhưng chúng tôi tin rằng khi đọc những dòng này, bạn sẽ mỉm
-                              cười cùng <strong>SEO Siêu Cấp</strong>!<br />Thân!<br />Hãy gọi ngay cho chúng tôi mỗi
-                              khi bạn cần.</p>
-                        </div>
-                     </div>
-                  </div>
+   
+               <div id="GIỚI THIỆU" class="tabcontent">
+                   <h3>GIỚI THIỆU</h3>
+                   <p>
+                      
+                   </p>
+               </div>
+   
+               <div id="TẦM NHÌN" class="tabcontent">
+                   <h3>TẦM NHÌN</h3>
+                   <p>
+                      
+                   </p> 
+               </div>
+   
+               <div id="SỨ MỆNH" class="tabcontent">
+                   <h3>SỨ MỆNH</h3>
+                   <p>
+                       
+                   </p>
                </div>
 
-               <!-- .section-content -->
-               <style scope="scope">
-                  #section_984106241 {
-                     padding-top: 10px;
-                     padding-bottom: 10px;
-                  }
-               </style>
-            </section>
+               <div id="GIÁ TRỊ CỐT LÕI" class="tabcontent">
+                  <h3>GIÁ TRỊ CỐT LÕI</h3>
+                  <p>
+                      
+                  </p>
+              </div>
+
+              <div id="LIÊN HỆ" class="tabcontent">
+               <h3>LIÊN HỆ</h3>
+               <p>
+                   
+               </p>
+           </div>
+           </div>
+       </body>
+       <script type="text/javascript">
+           var buttons = document.getElementsByClassName('tablinks');
+           var contents = document.getElementsByClassName('tabcontent');
+           function showContent(id){
+               for (var i = 0; i < contents.length; i++) {
+                   contents[i].style.display = 'none';
+               }
+               var content = document.getElementById(id);
+               content.style.display = 'block';
+           }
+           for (var i = 0; i < buttons.length; i++) {
+               buttons[i].addEventListener("click", function(){
+                   var id = this.textContent;
+                   for (var i = 0; i < buttons.length; i++) {
+                       buttons[i].classList.remove("active");
+                   }
+                   this.className += " active";
+                   showContent(id);
+               });
+           }
+           showContent('GIỚI THIỆU');
+       </script>
+          
          </div>
       </main>
       <!-- #main -->
@@ -1691,7 +1713,8 @@
    <style type="text/css"></style>
    <script
       type="text/javascript">var essb_clicked_lovethis = false; var essb_love_you_message_thanks = "Thank you for loving this."; var essb_love_you_message_loved = "You already love this today."; var essb_lovethis = function (oInstance) { if (essb_clicked_lovethis) { alert(essb_love_you_message_loved); return; } var element = jQuery('.essb_' + oInstance); if (!element.length) { return; } var instance_post_id = jQuery(element).attr("data-essb-postid") || ""; var cookie_set = essb_get_lovecookie("essb_love_" + instance_post_id); if (cookie_set) { alert(essb_love_you_message_loved); return; } if (typeof (essb_settings) != "undefined") { jQuery.post(essb_settings.ajax_url, { 'action': 'essb_love_action', 'post_id': instance_post_id, 'service': 'love', 'nonce': essb_settings.essb3_nonce }, function (data) { if (data) { alert(essb_love_you_message_thanks); } }, 'json'); } essb_tracking_only('', 'love', oInstance, true); }; var essb_get_lovecookie = function (name) { var value = "; " + document.cookie; var parts = value.split("; " + name + "="); if (parts.length == 2) return parts.pop().split(";").shift(); }; var essb_window = function (oUrl, oService, oInstance) { var element = jQuery('.essb_' + oInstance); var instance_post_id = jQuery(element).attr("data-essb-postid") || ""; var instance_position = jQuery(element).attr("data-essb-position") || ""; var wnd; var w = 800; var h = 500; if (oService == "twitter") { w = 500; h = 300; } var left = (screen.width / 2) - (w / 2); var top = (screen.height / 2) - (h / 2); if (oService == "twitter") { wnd = window.open(oUrl, "essb_share_window", "height=300,width=500,resizable=1,scrollbars=yes,top=" + top + ",left=" + left); } else { wnd = window.open(oUrl, "essb_share_window", "height=500,width=800,resizable=1,scrollbars=yes,top=" + top + ",left=" + left); } if (typeof (essb_settings) != "undefined") { if (essb_settings.essb3_stats) { if (typeof (essb_handle_stats) != "undefined") { essb_handle_stats(oService, instance_post_id, oInstance); } } if (essb_settings.essb3_ga) { essb_ga_tracking(oService, oUrl, instance_position); } } essb_self_postcount(oService, instance_post_id); var pollTimer = window.setInterval(function () { if (wnd.closed !== false) { window.clearInterval(pollTimer); essb_smart_onclose_events(oService, instance_post_id); } }, 200); }; var essb_self_postcount = function (oService, oCountID) { if (typeof (essb_settings) != "undefined") { oCountID = String(oCountID); jQuery.post(essb_settings.ajax_url, { 'action': 'essb_self_postcount', 'post_id': oCountID, 'service': oService, 'nonce': essb_settings.essb3_nonce }, function (data) { if (data) { } }, 'json'); } }; var essb_smart_onclose_events = function (oService, oPostID) { if (typeof (essbasc_popup_show) == 'function') { essbasc_popup_show(); } if (typeof essb_acs_code == 'function') { essb_acs_code(oService, oPostID); } }; var essb_tracking_only = function (oUrl, oService, oInstance, oAfterShare) { var element = jQuery('.essb_' + oInstance); if (oUrl == "") { oUrl = document.URL; } var instance_post_id = jQuery(element).attr("data-essb-postid") || ""; var instance_position = jQuery(element).attr("data-essb-position") || ""; if (typeof (essb_settings) != "undefined") { if (essb_settings.essb3_stats) { if (typeof (essb_handle_stats) != "undefined") { essb_handle_stats(oService, instance_post_id, oInstance); } } if (essb_settings.essb3_ga) { essb_ga_tracking(oService, oUrl, instance_position); } } essb_self_postcount(oService, instance_post_id); if (oAfterShare) { essb_smart_onclose_events(oService, instance_post_id); } }; var essb_pinterest_picker = function (oInstance) { essb_tracking_only('', 'pinterest', oInstance); var e = document.createElement('script'); e.setAttribute('type', 'text/javascript'); e.setAttribute('charset', 'UTF-8'); e.setAttribute('src', '../../../assets.pinterest.com/js/pinmarklet2a3b.js?r=' + Math.random() * 99999999); document.body.appendChild(e); };</script>
-</body>
+
+   </body>
 <!-- Mirrored from mauweb.monamedia.net/seosieucap/gioi-thieu/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Oct 2022 01:43:13 GMT -->
 
 </html>
