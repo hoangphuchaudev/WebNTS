@@ -438,8 +438,13 @@
                            background-color: rgba(0, 0, 0, 0.3);
                            }
                         </style>
-                    </div>
+                    </div>                    
                     <!-- .page-title -->
+                </div>
+                <div class="tab tab-product">
+                    <button type="button" class="tabsize tablinks active" onclick="openTab(event, 'khoi-co-quan-nha-nuoc')">Khối cơ quan nhà nước</button>
+                    <button type="button" class="tabsize tablinks " onclick="openTab(event, 'khoi-doanh-nghiep')">Khối doanh nghiệp</button>
+                    <button type="button" class="tabsize tablinks " onclick="openTab(event, 'san-pham-dac-thu')">Sản phẩm đặc thù</button>
                 </div>
                 <!-- .page-header-wrapper -->
                 <section class="section sec_lien_he back-color-content" id="section_164938446">
@@ -454,141 +459,269 @@
                         <div class="container">
                             <div class="row" style="flex-direction: column ;">
                                 <div class="col-md-24 no-padding">
-                                    <div class="integration-ctn">
-                                        <div class="integration-grid">
+                                    <!-- Cơ Quan Nhà Nước -->
+                                    <div class="integration-ctn tabcontent" id="khoi-co-quan-nha-nuoc"  >
+                                        <div class="integration-grid  active" >
                                             <div>
                                                 <div class="i-img">
-                                                    <img class="img-responsive lazyloaded"
-                                                        src="../lib/img/product-1.png"
-                                                        alt="AMIS Khuyến mãi" data-ll-status="loaded"><noscript><img class="img-responsive"
-                                                            src="/sites/amis/images/pages/amis-promotion/img-integration-1.png"
+                                                    <img class="img-responsive lazyloaded" 
+                                                        src="../lib/img/QLDA_Small.gif"
+                                                        alt="Phần mềm Quản lý dự án" data-ll-status="loaded"><noscript><img class="img-responsive"
+                                                            src="../lib/img/QLDA_Small.gif"
                                                             alt="AMIS Khuyến mãi"></noscript>
                                                 </div>
                                                 <div class="i-title">
-                                                    AMIS Khuyến mại
+                                                    Phần mềm Quản lý dự án
                                                 </div>
                                                 <div class="i-content">
                                                     <div>
-                                                        Thiết lập, tra cứu, theo dõi<br>
-                                                        chương trình khuyến mại
+                                                        Phần mềm có thể giúp cho các đơn vị chủ quản (cấp Sở, Phòng) tổng hợp tài sản theo ngành, theo loại hình đơn vị và theo huyện/tỉnh.
                                                     </div>
                                                     <div>
-                                                        Tự động áp dụng chương trình<br>
-                                                        khuyến mại lên sản phẩm
-                                                    </div>
+                                                        NTSoft PMIS đã được triển khai trên phạm vi toàn tỉnh tại: Sở Tài chính Vĩnh Long, Sở Tài chính Cà Mau, Sở Tài chính Đồng Tháp, Sở Tài chính Sóc Trăng, Sở Tài chính Trà Vinh.                                                    </div>
+                                                </div>
+                                                <div class="btn-details">                                                    
+                                                    <button class="btn btn-primary">Xem chi tiết</button>
                                                 </div>
                                             </div>
                                             <div>
                                                 <div class="i-img">
                                                     <img class="img-responsive lazyloaded"
-                                                        src="../lib/img/product-2.png" alt="AMIS Bán hàng"
+                                                        src="../lib/img/TDKT_Small.gif" alt="Phần mềm Thi đua - Khen thưởng"
                                                         data-ll-status="loaded"><noscript><img class="img-responsive"
                                                             src="/sites/amis/images/pages/amis-promotion/img-integration-2.png"
                                                             alt="AMIS Bán hàng"></noscript>
                                                 </div>
                                                 <div class="i-title">
-                                                    AMIS Bán hàng
+                                                    Phần mềm Thi đua - Khen thưởng
                                                 </div>
                                                 <div class="i-content">
                                                     <div>
-                                                        Tự động tiếp nhận thông tin<br>
-                                                        chương trình khuyến mại
+                                                        Phần mềm Quản lý thi đua khen thưởng dùng để quản lý thi đua khen thưởng tại Cơ quan Nhà nước và các đơn vị sự nghiệp Nhà nước .../.
                                                     </div>
                                                     <div>
-                                                        Tự động áp dụng lên đơn hàng
+                                                        Phần mềm thực thi trên môi trường mạng Internet, không cần cài đặt.
                                                     </div>
+                                                </div>
+                                                <div class="btn-details">                                                    
+                                                    <button class="btn btn-primary">Xem chi tiết</button>
                                                 </div>
                                             </div>
                                             <div>
                                                 <div class="i-img">
                                                     <img class="img-responsive lazyloaded"
-                                                        src="../lib/img/product-3.png" alt="AMIS Kế toán"
+                                                        src="../lib/img/QLTL.VN_Small.gif" alt="Phần mềm Quản lý tiền lương"
                                                         data-ll-status="loaded"><noscript><img class="img-responsive"
-                                                            src="/sites/amis/images/pages/amis-promotion/img-integration-3.png"
-                                                            alt="AMIS Kế toán"></noscript>
+                                                            src="../lib/img/QLTL.VN_Small.gif"
+                                                            alt="Phần mềm Quản lý tiền lương"></noscript>
                                                 </div>
                                                 <div class="i-title">
-                                                    AMIS Kế toán
+                                                    Phần mềm Quản lý tiền lương
                                                 </div>
                                                 <div class="i-content">
                                                     <div>
-                                                        Đối chiếu thông tin đơn hàng,<br>
-                                                        chương trình khuyến mại
+                                                        Phần mềm Quản lý tiền lương dùng để quản lý tiền lương của Cán bộ, công chức, viên chức tại Cơ quan Nhà nước và các đơn vị sự nghiệp Nhà nước .../.
                                                     </div>
                                                     <div>
-                                                        Quản lý chứng từ và các thủ tục<br>
-                                                        liên quan
+                                                        Phần mềm thực thi trên môi trường mạng Internet, không cần cài đặt.
                                                     </div>
+                                                </div>
+                                                <div class="btn-details">                                                    
+                                                    <button class="btn btn-primary">Xem chi tiết</button>
                                                 </div>
                                             </div>
                                             <div>
                                                 <div class="i-img">
                                                     <img class="img-responsive lazyloaded"
-                                                        src="../lib/img/product-1.png"
-                                                        alt="AMIS Khuyến mãi" data-ll-status="loaded"><noscript><img class="img-responsive"
-                                                            src="/sites/amis/images/pages/amis-promotion/img-integration-1.png"
-                                                            alt="AMIS Khuyến mãi"></noscript>
+                                                        src="../lib/img/TSCD.COM.VN_Small.gif"
+                                                        alt="Phần mềm Quản lý tài sản cố định" data-ll-status="loaded"><noscript>
+                                                            <img class="img-responsive"
+                                                            src="../lib/img/TSCD.COM.VN_Small.gif"
+                                                            alt="Phần mềm Quản lý tài sản cố định"></noscript>
                                                 </div>
                                                 <div class="i-title">
-                                                    AMIS Khuyến mại
+                                                    Phần mềm Quản lý tài sản cố định
                                                 </div>
                                                 <div class="i-content">
                                                     <div>
-                                                        Thiết lập, tra cứu, theo dõi<br>
-                                                        chương trình khuyến mại
+                                                        Phần mềm Quản lý tài sản là công cụ giúp các đơn vị sử dụng tài sản Nhà nước thực hiện quản lý tài sản cố định và công cụ dụng cụ theo qui định của Bộ Tài chính
                                                     </div>
                                                     <div>
-                                                        Tự động áp dụng chương trình<br>
-                                                        khuyến mại lên sản phẩm
+                                                        Phần mềm thực thi trên môi trường mạng Internet, không cần cài đặt
                                                     </div>
+                                                </div>
+                                                <div class="btn-details">                                                    
+                                                    <button class="btn btn-primary">Xem chi tiết</button>
                                                 </div>
                                             </div>
                                             <div>
                                                 <div class="i-img">
                                                     <img class="img-responsive lazyloaded"
-                                                        src="../lib/img/product-2.png" alt="AMIS Bán hàng"
+                                                        src="../lib/img/QLNS.VN_Small.gif" alt="Phần mềm Quản lý Cán bộ công chức"
                                                         data-ll-status="loaded"><noscript><img class="img-responsive"
-                                                            src="/sites/amis/images/pages/amis-promotion/img-integration-2.png"
-                                                            alt="AMIS Bán hàng"></noscript>
+                                                            src="QLNS.VN_Small.gif"
+                                                            alt="Phần mềm Quản lý Cán bộ công chức"></noscript>
                                                 </div>
                                                 <div class="i-title">
-                                                    AMIS Bán hàng
+                                                    Phần mềm Quản lý Cán bộ công chức
                                                 </div>
                                                 <div class="i-content">
                                                     <div>
-                                                        Tự động tiếp nhận thông tin<br>
-                                                        chương trình khuyến mại
-                                                    </div>
+                                                        Phần mềm quản lý hồ sơ cán bộ công chức hỗ trợ việc quản lý hồ sơ cán bộ, công chức, viên chức trong các cơ quan, tổ chức hành chính nhà nước                                                    </div>
                                                     <div>
-                                                        Tự động áp dụng lên đơn hàng
+                                                        Phần mềm thực thi trên môi trường mạng Internet, không cần cài đặt
                                                     </div>
+                                                </div>
+                                                <div class="btn-details">                                                    
+                                                    <button class="btn btn-primary">Xem chi tiết</button>
                                                 </div>
                                             </div>
                                             <div>
                                                 <div class="i-img">
                                                     <img class="img-responsive lazyloaded"
-                                                        src="../lib/img/product-3.png" alt="AMIS Kế toán"
+                                                        src="../lib/img/QLTB2.0_Small.gif" alt="Phần mềm Quản lý thiết bị dạy học"
                                                         data-ll-status="loaded"><noscript><img class="img-responsive"
-                                                            src="/sites/amis/images/pages/amis-promotion/img-integration-3.png"
-                                                            alt="AMIS Kế toán"></noscript>
+                                                            src="../lib/img/QLTB2.0_Small.gif"
+                                                            alt="Phần mềm Quản lý thiết bị dạy học"></noscript>
                                                 </div>
                                                 <div class="i-title">
-                                                    AMIS Kế toán
+                                                    Phần mềm Quản lý thiết bị dạy học                                                
                                                 </div>
                                                 <div class="i-content">
                                                     <div>
-                                                        Đối chiếu thông tin đơn hàng,<br>
-                                                        chương trình khuyến mại
-                                                    </div>
+                                                        Phần mềm Quản Lý Thiết Bị Dạy Học đáp ứng việc quản lý TBDH theo yêu cầu của Bộ Giáo Dục và Đào Tạo về việc quản lý, sử dụng TBDH trong hệ thống giáo dục.                                                    </div>
                                                     <div>
-                                                        Quản lý chứng từ và các thủ tục<br>
-                                                        liên quan
+                                                        Phần mềm thực thi trên môi trường mạng Internet, không cần cài đặt
                                                     </div>
+                                                </div>
+                                                <div class="btn-details">                                                    
+                                                    <button class="btn btn-primary">Xem chi tiết</button>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="i-img">
+                                                    <img class="img-responsive lazyloaded"
+                                                        src="../lib/img/THBC_Small.gif" alt="Phần mềm quản lý tổng hợp báo cáo – NT"
+                                                        data-ll-status="loaded"><noscript><img class="img-responsive"
+                                                            src="../lib/img/QLTB2.THBC_Small.gif"
+                                                            alt="Phần mềm quản lý tổng hợp báo cáo – NT"></noscript>
+                                                </div>
+                                                <div class="i-title">
+                                                    Phần mềm quản lý tổng hợp báo cáo – NT                                               
+                                                </div>
+                                                <div class="i-content">
+                                                    <div>
+                                                        Quản lý báo cáo hằng ngày, báo cáo hằng tháng, báo cáo định kỳ; quản lý báo cáo một lần; công cụ tạo báo cáo số liệu tùy chọn có thể tạo ra                                                      </div>
+                                                    <div>
+                                                        Phần mềm thực thi trên môi trường mạng Internet, không cần cài đặt
+                                                    </div>
+                                                </div>
+                                                <div class="btn-details">                                                    
+                                                    <button class="btn btn-primary">Xem chi tiết</button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                    <!-- Doanh Nghiệp -->
+                                    <div class="integration-ctn tabcontent" id="khoi-doanh-nghiep" style="display: none;">
+                                        <div class="integration-grid  " >
+                                            <div>
+                                                <div class="i-img">
+                                                    <img class="img-responsive lazyloaded"
+                                                        src="../lib/img/QLBHv3.0_Small.gif"
+                                                        alt="Phần mềm Quản lý bán hàng" data-ll-status="loaded"><noscript><img class="img-responsive"
+                                                            src="../lib/img/QLBHv3.0_Small.gif"
+                                                            alt="Phần mềm Quản lý bán hàng"></noscript>
+                                                </div>
+                                                <div class="i-title">
+                                                    Phần mềm Quản lý bán hàng
+                                                </div>
+                                                <div class="i-content">
+                                                    <div>
+                                                        Phần mềm Quản lý bán hàng: Là một hệ thống giúp chủ doanh nghiệp giảm nhẹ và quản lý hiệu quả công việc trong tất cả các phân đoạn bán hàng như quản lý đơn đặt                                                    </div>
+                                                    <div>
+                                                        Phần mềm thực thi trên môi trường mạng Internet, không cần cài đặt.
+                                                    </div>
+                                                </div>
+                                                <div class="btn-details">                                                    
+                                                    <button class="btn btn-primary">Xem chi tiết</button>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="i-img">
+                                                    <img class="img-responsive lazyloaded"
+                                                        src="../lib/img/KTDN2.0_Small.gif" alt="Phần mềm Kế toán doanh nghiệp"
+                                                        data-ll-status="loaded"><noscript><img class="img-responsive"
+                                                            src="../lib/img/KTDN2.0_Small.gif"
+                                                            alt="Phần mềm Kế toán doanh nghiệp"></noscript>
+                                                </div>
+                                                <div class="i-title">
+                                                    Phần mềm Kế toán doanh nghiệp
+                                                </div>
+                                                <div class="i-content">
+                                                    <div>
+                                                        Phần mềm Kế toán doanh nghiệp: Áp dụng cho doanh nghiệp thương mại và sản xuất (tính giá thành sản phẩm), quản lý về kho hàng hóa (xuất nhập tồn), quản lý về                                                    </div>
+                                                    <div>
+                                                        Phần mềm thực thi trên môi trường mạng Internet, không cần cài đặt.
+                                                    </div>
+                                                </div>
+                                                <div class="btn-details">                                                    
+                                                    <button class="btn btn-primary">Xem chi tiết</button>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="i-img">
+                                                    <img class="img-responsive lazyloaded"
+                                                        src="../lib/img/QLPK1.0_Small.gif" alt="Phần mềm Quản lý phòng khám"
+                                                        data-ll-status="loaded"><noscript><img class="img-responsive"
+                                                            src="../lib/img/QLPK1.0_Small.gif"
+                                                            alt="Phần mềm Quản lý phòng khám"></noscript>
+                                                </div>
+                                                <div class="i-title">
+                                                    Phần mềm Quản lý phòng khám
+                                                </div>
+                                                <div class="i-content">
+                                                    <div>
+                                                        Phần mềm Quản lý tiền lương dùng để quản lý tiền lương của Cán bộ, công chức, viên chức tại Cơ quan Nhà nước và các đơn vị sự nghiệp Nhà nước .../.
+                                                    </div>
+                                                    <div>
+                                                        Phần mềm thực thi trên môi trường mạng Internet, không cần cài đặt.
+                                                    </div>
+                                                </div>
+                                                <div class="btn-details">                                                    
+                                                    <button class="btn btn-primary">Xem chi tiết</button>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="i-img">
+                                                    <img class="img-responsive lazyloaded"
+                                                        src="../lib/img/THBC_Small (1).gif"
+                                                        alt="Phần mềm quản lý tổng hợp báo cáo – NT" data-ll-status="loaded"><noscript>
+                                                            <img class="img-responsive"
+                                                            src="../lib/img/THBC_Small (1).gif"
+                                                            alt="Phần mềm quản lý tổng hợp báo cáo – NT"></noscript>
+                                                </div>
+                                                <div class="i-title">
+                                                    Phần mềm quản lý tổng hợp báo cáo – NT
+                                                </div>
+                                                <div class="i-content">
+                                                    <div>
+                                                        Quản lý báo cáo hằng ngày, báo cáo hằng tháng, báo cáo định kỳ; quản lý báo cáo một lần; công cụ tạo báo cáo số liệu tùy chọn có thể tạo ra và tổng hợp tự động tất cả các                                                    </div>
+                                                    <div>
+                                                        Phần mềm thực thi trên môi trường mạng Internet, không cần cài đặt
+                                                    </div>
+                                                </div>
+                                                <div class="btn-details">                                                    
+                                                    <button class="btn btn-primary">Xem chi tiết</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Sản Phẩm Đặc Thù -->
+                                    <div class="integration-ctn tabcontent" id="san-pham-dac-thu" style="display: none;">
+                                        <div class="integration-grid " >                                           
+                                        </div>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -973,6 +1106,28 @@
             </script>
         <script type='text/javascript'
             src="../wp-content/plugins/woocommerce/assets/js/frontend/password-strength-meter.mine248.js?ver=3.5.4"></script>
+            <script>
+                function openTab(evt, tabName, num) {
+                        // Declare all variables
+                        var i, tabcontent, tablinks;
+
+                        // Get all elements with class="tabcontent" and hide them
+                        tabcontent = document.getElementsByClassName("tabcontent");
+                        for (i = 0; i < tabcontent.length; i++) {
+                            tabcontent[i].style.display = "none";
+                        }
+
+                        // Get all elements with class="tablinks" and remove the class "active"
+                        tablinks = document.getElementsByClassName("tablinks");
+                        for (i = 0; i < tablinks.length; i++) {
+                            tablinks[i].className = tablinks[i].className.replace(" active", "");
+                        }
+
+                        // Show the current tab, and add an "active" class to the button that opened the tab
+                        document.getElementById(tabName).style.display = "block";
+                        evt.currentTarget.className += " active";
+                    }
+            </script>
         <style type="text/css"></style>
         <script
             type="text/javascript">var essb_clicked_lovethis = false; var essb_love_you_message_thanks = "Thank you for loving this."; var essb_love_you_message_loved = "You already love this today."; var essb_lovethis = function (oInstance) { if (essb_clicked_lovethis) { alert(essb_love_you_message_loved); return; } var element = jQuery('.essb_' + oInstance); if (!element.length) { return; } var instance_post_id = jQuery(element).attr("data-essb-postid") || ""; var cookie_set = essb_get_lovecookie("essb_love_" + instance_post_id); if (cookie_set) { alert(essb_love_you_message_loved); return; } if (typeof (essb_settings) != "undefined") { jQuery.post(essb_settings.ajax_url, { 'action': 'essb_love_action', 'post_id': instance_post_id, 'service': 'love', 'nonce': essb_settings.essb3_nonce }, function (data) { if (data) { alert(essb_love_you_message_thanks); } }, 'json'); } essb_tracking_only('', 'love', oInstance, true); }; var essb_get_lovecookie = function (name) { var value = "; " + document.cookie; var parts = value.split("; " + name + "="); if (parts.length == 2) return parts.pop().split(";").shift(); }; var essb_window = function (oUrl, oService, oInstance) { var element = jQuery('.essb_' + oInstance); var instance_post_id = jQuery(element).attr("data-essb-postid") || ""; var instance_position = jQuery(element).attr("data-essb-position") || ""; var wnd; var w = 800; var h = 500; if (oService == "twitter") { w = 500; h = 300; } var left = (screen.width / 2) - (w / 2); var top = (screen.height / 2) - (h / 2); if (oService == "twitter") { wnd = window.open(oUrl, "essb_share_window", "height=300,width=500,resizable=1,scrollbars=yes,top=" + top + ",left=" + left); } else { wnd = window.open(oUrl, "essb_share_window", "height=500,width=800,resizable=1,scrollbars=yes,top=" + top + ",left=" + left); } if (typeof (essb_settings) != "undefined") { if (essb_settings.essb3_stats) { if (typeof (essb_handle_stats) != "undefined") { essb_handle_stats(oService, instance_post_id, oInstance); } } if (essb_settings.essb3_ga) { essb_ga_tracking(oService, oUrl, instance_position); } } essb_self_postcount(oService, instance_post_id); var pollTimer = window.setInterval(function () { if (wnd.closed !== false) { window.clearInterval(pollTimer); essb_smart_onclose_events(oService, instance_post_id); } }, 200); }; var essb_self_postcount = function (oService, oCountID) { if (typeof (essb_settings) != "undefined") { oCountID = String(oCountID); jQuery.post(essb_settings.ajax_url, { 'action': 'essb_self_postcount', 'post_id': oCountID, 'service': oService, 'nonce': essb_settings.essb3_nonce }, function (data) { if (data) { } }, 'json'); } }; var essb_smart_onclose_events = function (oService, oPostID) { if (typeof (essbasc_popup_show) == 'function') { essbasc_popup_show(); } if (typeof essb_acs_code == 'function') { essb_acs_code(oService, oPostID); } }; var essb_tracking_only = function (oUrl, oService, oInstance, oAfterShare) { var element = jQuery('.essb_' + oInstance); if (oUrl == "") { oUrl = document.URL; } var instance_post_id = jQuery(element).attr("data-essb-postid") || ""; var instance_position = jQuery(element).attr("data-essb-position") || ""; if (typeof (essb_settings) != "undefined") { if (essb_settings.essb3_stats) { if (typeof (essb_handle_stats) != "undefined") { essb_handle_stats(oService, instance_post_id, oInstance); } } if (essb_settings.essb3_ga) { essb_ga_tracking(oService, oUrl, instance_position); } } essb_self_postcount(oService, instance_post_id); if (oAfterShare) { essb_smart_onclose_events(oService, instance_post_id); } }; var essb_pinterest_picker = function (oInstance) { essb_tracking_only('', 'pinterest', oInstance); var e = document.createElement('script'); e.setAttribute('type', 'text/javascript'); e.setAttribute('charset', 'UTF-8'); e.setAttribute('src', '../../../assets.pinterest.com/js/pinmarklet2a3b.js?r=' + Math.random() * 99999999); document.body.appendChild(e); };</script>
