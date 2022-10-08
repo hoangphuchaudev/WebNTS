@@ -64,6 +64,7 @@
    * Scrolls to an element with header offset
    */
   const scrollto = (el) => {
+
     let header = select('#header')
     let offset = header.offsetHeight
 
@@ -82,12 +83,22 @@
    * Toggle .header-scrolled class to #header when page is scrolled
    */
   let selectHeader = select('#header')
+  let navList = document.getElementById('nav-list');
   if (selectHeader) {
     const headerScrolled = () => {
-      if (window.scrollY > 100) {
-        selectHeader.classList.add('header-scrolled')
+      if (window.scrollY > 40) {
+        selectHeader.classList.add('header-scrolled');
+        navList.classList.add('activeColor');
+       document.getElementById('header').style.backgroundColor = 'aliceblue';
+       document.getElementById('logo').src = './lib/img/photo_2022-10-01_09-51-44.jpg';
+      
       } else {
-        selectHeader.classList.remove('header-scrolled')
+        selectHeader.classList.remove('header-scrolled');
+        document.getElementById('header').style.backgroundColor = '#f0f8ff00';
+         document.getElementById('navbar').style.color = 'white';
+        navList.classList.remove('activeColor');
+        document.getElementById('logo').src = './lib/img/logo-white.jpg';
+
       }
     }
     window.addEventListener('load', headerScrolled)
