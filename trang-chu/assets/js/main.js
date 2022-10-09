@@ -84,12 +84,15 @@
    */
   let selectHeader = select('#header')
   let navList = document.getElementById('nav-list');
+  let navList_m = document.getElementById('nav-list-mobile');
   if (selectHeader) {
     const headerScrolled = () => {
       if (window.scrollY > 40) {
         selectHeader.classList.add('header-scrolled');
         navList.classList.add('activeColor');
+        navList_m.classList.add('activeColor');
        document.getElementById('header').style.backgroundColor = 'aliceblue';
+       document.getElementById('nav-list-mobile').style.color = 'black';
        document.getElementById('logo').src = './lib/img/photo_2022-10-01_09-51-44.jpg';
       
       } else {
@@ -97,6 +100,8 @@
         document.getElementById('header').style.backgroundColor = '#f0f8ff00';
          document.getElementById('navbar').style.color = 'white';
         navList.classList.remove('activeColor');
+        navList_m.classList.remove('activeColor');
+       document.getElementById('nav-list-mobile').style.color = 'white';
         document.getElementById('logo').src = './lib/img/logo-white.jpg';
 
       }

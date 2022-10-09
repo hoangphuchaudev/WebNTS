@@ -64,7 +64,6 @@ h6 {
   visibility: visible;
   opacity: 1;
 }
-
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
 --------------------------------------------------------------*/
@@ -128,8 +127,14 @@ h6 {
   list-style: none;
   align-items: center;
 }
-.navbar #nav-list.activeColor .nav-link {
+.navbar #nav-list.activeColor .nav-link{
   color:  #333;
+}
+.navbar #nav-list-mobile .activeColor{
+  color:  #333 !important;
+}
+.navbar #nav-list-mobile {
+  color:  white;
 }
 .navbar li {
   position: relative;
@@ -244,6 +249,12 @@ h6 {
     left: -100%;
   }
 }
+@media (max-width: 990px) {
+  .navbar .nav-link {
+    color: black;
+  }
+}
+
 
 /**
 * Mobile Navigation 
@@ -426,7 +437,7 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
-    margin-top: 20px;
+    
   }
 
   #hero h1 {
@@ -443,7 +454,10 @@ h6 {
   #hero .hero-img img {
     width: 70%;
   }
+
+
 }
+
 
 @media (max-width: 575px) {
   #hero .hero-img img {
